@@ -1,5 +1,6 @@
 package praktikum;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -11,12 +12,7 @@ import java.util.List;
 public class Burger {
 
     public Bun bun;
-    public List<Ingredient> ingredients;
-
-    public Burger(Bun bun, List<Ingredient> ingredients) {
-        this.bun = bun;
-        this.ingredients = ingredients;
-    }
+    public List<Ingredient> ingredients = new ArrayList<>();
 
     public void setBuns(Bun bun) {
         this.bun = bun;
