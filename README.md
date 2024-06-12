@@ -1,7 +1,14 @@
-PR: https://github.com/catdogru/Diplom-1/pull/1
+## Юнит-тесты
 
-Запуск тестов
+#### Классы, покрытые тестами
+
+- Bun
+- Burger
+- IngredientType
+- Ingredient
+
+#### Запуск тестов
 ```bash mvn clean test```
 
-Генерация отчёта
+#### Генерация отчёта
 ```bash mvn verify```
